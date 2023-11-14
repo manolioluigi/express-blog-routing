@@ -49,12 +49,6 @@ function create(req, res) {
     });
 }
 
-module.exports = {
-    // ... altre funzioni del controller
-    create,
-};
-
-
 //download 
 function download(req, res) {
     const slug = req.params.slug;
